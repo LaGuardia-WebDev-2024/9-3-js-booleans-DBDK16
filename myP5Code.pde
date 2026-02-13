@@ -13,7 +13,7 @@ draw = function() {
   textSize(30);
   text("Analysis of: " + theNumber, 10, 36);
 
-  text("It's positive", 10, 90);
+ if(theNumber > 0) text("It's positive", 10, 90);
   text("It's negative", 10, 140);
   text("It's zero", 10, 190);
 
